@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.banner{
+    background-image: url(../images/dion-food-banner9.jpg);
+    background-size: cover;
+    height: 35vh;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.banner-overlay h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 1000;
+    
+}
+
+
+
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+
+#menu.active~ #contact-details{
+    width: calc(100% - 270px);
+    margin-left: 170px;
+    transition: 0.3s ease;
+
+}
+
+
+#contact-details .details{
+    width: 40%;
+}
+
+#contact-details .details span,
+#form-details form span{
+    font-size: 12px;
+}
+
+#contact-details .details h2,
+#form-details form h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 20px 0;
+}
+
+#contact-details .details h3{
+    font-size: 16px;
+    padding-bottom: 15px;
+}
+
+#contact-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+
+
+
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+
+
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+
+#contact-details .map{
+    width: 55%;
+    height: 400px;
+}
+
+#contact-details iframe{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+@media (max-width:500px){
+    .banner .sub-heading{
+        width: 80%;
+        text-align: center;
+        margin-top: 7px;
+    }
+
+    .banner-overlay h1 {
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 900;
+    }
+
+       
+    .banner {
+        background-image: url(../images/dion-food-banner-mobile9.jpg); /* Change the image for mobile */
+        background-size: cover; /* Keep the image full size */
+        height: 25vh; /* Adjust height for mobile */
+        background-position: center;
+        border-radius: 0px; /* Optional: adjust styling for mobile */
+        margin-top: 5px; /* Optional: adjust margins for mobile */
+    }
+
+
+    #contact-details {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+
+    #contact-details .details{
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    #contact-details .details h2, #form-details form h2 {
+        font-size: 22px;
+    }
+
+    #contact-details .map {
+        width: 100%;
+        height: 400px;
+        margin-bottom: 45px;
+    }
+
+    #menu.active ~ #contact-details {
+        width: calc(170% - 270px);
+        margin-left: 170px;
+        transition: 0.3s ease;
+    }
+
+   
+}
+
+@media (max-width:414px){
+    .sidewy {
+        height: 75vh;
+    }
+}

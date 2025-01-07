@@ -1,0 +1,587 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.banner{
+    background-image: url(../images/dion-food-banner4.jpg);
+    background-size: cover;
+    height: 35vh;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sec-head{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.card_list {
+    margin-left: 30px;
+}
+
+
+#menu.active~ main{
+    width: calc(100% - 270px);
+    margin-left: 230px;
+    transition: 0.3s ease;
+
+}
+
+#menu.active~ main h2{
+    width: calc(100% - 270px);
+    margin-left: 50px;
+    transition: 0.3s ease;
+
+}
+
+
+@media (max-width:999px){
+    body{
+        width: 100%;
+        padding: 4%;
+    }
+
+
+    #menu h2 {
+        font-size: 15px;
+    }
+
+    #menu {
+        width: 210px;
+        left: -210px;
+        top: 0;
+        overflow: hidden;
+      
+    }
+
+    
+#menu.active~ .header{
+    width: calc(100% - 270px);
+    margin-left: 210px;
+    transition: 0.3s ease;
+
+}
+
+#menu.active~ .banner{
+    width: calc(100% - 270px);
+    margin-left: 210px;
+    transition: 0.3s ease;
+
+}
+
+
+#menu.active~ main{
+    width: calc(100% - 270px);
+    margin-left: 210px;
+    transition: 0.3s ease;
+
+}
+
+
+
+
+#menu.active~ .copyright{
+    width: calc(100% - 100px);
+    height: auto;
+    margin-left: 210px;
+    transition: 0.3s ease;
+
+}
+
+.items {
+  margin-left: 30px;
+}
+
+.card_list {
+    padding: 0 30px;
+}
+
+
+.sec-head{
+    padding: 0 30px;
+
+}
+
+
+#menu.active~ main .card_list {
+    padding: 0;
+}
+
+
+
+#menu.active~ main .listings .items {
+    margin-left: 20px;
+}
+
+
+.sidewy {
+    width: 200px;
+    height: 100%;
+    padding: 10px;
+   
+}
+
+
+
+
+.individual-cart-item span{
+    font-size: 13px;
+}
+
+
+
+
+#search-results {
+    max-height: 300px; /* Adjust height for smaller screens */
+}
+
+.search-item {
+    flex-direction: column; /* Stack image and details vertically */
+    align-items: flex-start; /* Align items to the start */
+}
+
+.search-item-image {
+    width: 40px; /* Smaller image size on smaller screens */
+    height: 40px;
+}
+
+
+
+}
+
+
+@media (max-width:810px){
+ 
+
+   
+
+    .card_list {
+        padding: 0 0;
+        margin: 0;
+    }
+
+
+    .items {
+        width: 200px;
+    }
+
+    .card {
+        width: 240px;    
+    }
+
+    
+    .sidewy {
+        height: 63vh;
+    }
+
+    #menu.active ~ body {
+       overflow: hidden;
+    }
+
+    
+    #menu.active ~ main h2 {
+        width: calc(90% - 80px);
+    }
+
+    #menu.active ~ main {
+        width: calc(110% - 290px);
+        margin-left: 200px;
+        transition: 0.3s ease;
+    }
+
+
+    #menu.active ~ .header {
+        width: calc(105% - 270px);
+        margin-left: 210px;
+        transition: 0.3s ease;
+    }
+
+
+
+
+#menu.active ~ .banner {
+	width: calc(105% - 270px);
+	margin-left: 210px;
+	transition: 0.3s ease;
+}
+
+    #menu.active ~ main .card_list {
+        width: calc(105% - 0px);
+        margin-left: 0;
+        padding: 0;
+    }
+
+    
+    #menu.active ~ main .card {
+        width: 260px;
+    }
+
+    .copyright{
+        margin-top: 70px;
+    }
+
+
+}
+
+
+
+
+
+@media (max-width:500px){
+
+
+    .search-bx {
+        border-radius: 10px;
+        height: 35px;
+        display: flex;
+        padding: 0 1rem;
+    }
+
+ 
+
+    #menu {
+        width: 150px;
+        left: -150px;
+        top: 0;
+        overflow: hidden;
+        
+      
+    }
+
+    #menu .logo {
+      
+        padding: 18px 0 0 18px;
+    }
+
+    #menu .items-listings li {
+        padding: 8px 0;
+    }
+
+    .card_list {
+        padding: 0 0;
+    }
+
+
+    #menu .items-listings i {
+        font-size: 14px;
+        margin: 0 10px 0 15px;
+    }
+
+
+    
+    .banner {
+        background-image: url(../images/dion-food-banner-mobile4.jpg); /* Change the image for mobile */
+        background-size: cover; /* Keep the image full size */
+        height: 25vh; /* Adjust height for mobile */
+        background-position: center;
+        border-radius: 0px; /* Optional: adjust styling for mobile */
+        margin-top: 5px; /* Optional: adjust margins for mobile */
+    }
+
+    .banner .sub-heading{
+        width: 80%;
+        text-align: center;
+        margin-top: 7px;
+    }
+   
+
+
+    .sec-head {
+       text-align: center;
+       font-size: 18px;
+       padding-left: 5px;
+    }
+
+   
+
+    #menu.active ~ main h2 {
+        width: calc(100% - 80px);
+        margin-left: 50px;
+        transition: 0.3s ease;
+    }
+
+    #menu.active~ .header{
+        margin-left: 150px;
+        width: 100%;
+    
+    }
+
+    #menu.active~ .banner{
+        margin-left: 150px;
+        width: 100%;
+    
+    }
+
+    #menu.active~ main{
+        margin-left: 110px;
+        width: 115%;
+    
+    }
+
+
+    #menu.active~ main .card_list {
+        padding: 45px;
+    }
+    
+    
+    
+    #menu.active~ main .listings .items {
+        margin-left: 35px;
+    }
+
+    .items {
+        width: 200px;
+        height: 160px;
+        margin-left: 40px;
+    }
+    
+
+    .card {
+        width: 220px;
+        margin-bottom: 30px;
+        height: auto;
+    }
+
+    .card_list {
+        padding: 0 0;
+        margin-bottom: 20px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .sidewy {
+        width: 170px;
+        height: 75vh;
+        padding: 7px;
+    }
+
+    .sidewy h3{
+        font-size: 15px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+
+    .sidebar_clp .bx-x {
+        top: 23px;
+    }
+
+    .cart_item {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+        margin-top: 1rem;
+    }
+
+    .individual-cart-item span{
+        font-size: 10px;
+    }
+
+    .remove-btn {
+        background: gray;
+        color: #fff;
+        border-radius: 5px;
+        padding: 4px 3px;
+        cursor: pointer;
+        margin-left: 3px;
+    }
+
+    #search-results {
+        top: 65px;
+        margin-left: 0;
+        max-width: 100vw;
+        padding: 5px;
+        box-shadow: none;
+        max-height: 300px;
+        margin-top: 35px;
+    }
+
+    .search-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px;
+    }
+
+    .search-item-image {
+        width: 40px;
+        height: 40px;
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .search-item-details h4 {
+        font-size: 14px;
+    }
+
+    .search-item-details p {
+        font-size: 12px;
+    }
+
+    .add-to-cart {
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+
+    #search-results .add-to-cart {
+        margin-top: 8px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 428px){
+
+    .card {
+        width: 320px;
+        height: 370px;
+        margin-bottom: 30px;
+    }
+
+  
+
+    .card_list {
+        margin-right: 10px;
+    }
+
+    #menu.active ~ main .card {
+        width: 370px;
+        margin-left: 25px;
+
+    }
+
+    #menu.active ~ main {
+        margin-left: 110px;
+        width: 110%;
+    }
+
+    .sidewy {
+        height:74vh;
+    }
+
+  
+}
+
+
+@media (max-width: 414px)  {
+    .card {
+        width: 380px;
+        margin-left: 12px;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 45vh;
+    }
+
+    .sidewy {
+        height: 93vh;
+    }
+
+    #menu.active ~ main .card {
+        width: 370px;
+        margin-left: 25px;
+
+    }
+
+    #menu.active ~ main {
+        margin-left: 110px;
+        width: 110%;
+    }
+
+    #search-results {
+        top: 50px;
+        margin-left: 0;
+        max-width: 100vw;
+        padding: 5px;
+        box-shadow: none;
+        max-height: 300px;
+        margin-top: 35px;
+    }
+
+  }
+
+
+@media (max-width: 412px){
+
+    .card {
+        width: 310px;
+    }
+
+    .sidewy {
+        height: 75vh;
+    }
+}
+
+@media (max-width: 390px){
+
+    .card {
+        width: 310px;
+        margin-right: 25px;
+    }
+
+    .sidewy {
+        height: 81vh;
+    }
+
+    .card img {
+        width: 100%;
+        height: 33vh;
+    }
+}
+
+
+
+@media (max-width: 384px){
+
+    .card {
+        width: 310px;
+        margin-right: 25px;
+    }
+
+    .sidewy {
+        height: 80vh;
+    }
+}
+
+
+@media (max-width: 375px){
+    .sidewy {
+        height: 85vh;
+    }
+
+    .card {
+        width: 340px;
+        margin-right: 0;
+        margin-left: 3px;
+    }
+
+    #menu.active~ main .card {
+        width: 340px;
+    }
+
+    .card img {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+
+@media (max-width: 360px){
+    .sidewy {
+        height: 85vh;
+    }
+}
+

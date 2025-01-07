@@ -1,0 +1,87 @@
+/* styles/login.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fbb042, rgb(134, 141, 151));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-container {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    width: 320px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contain{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.contain h1{
+    font-size: 26px;
+    font-weight: 900;
+    margin-left: 15px;
+    margin-top: 10px ;
+    color: #fbb042;
+}
+
+h1 {
+    color: rgb(134, 141, 151); /* Using the provided color */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #fbb042; /* Highlight input border on focus */
+    outline: none;
+}
+
+button {
+    background: #fbb042; /* Button color */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #e89a00; 
+    transform: scale(1.05); 
+    margin-top: 10px;
+}
+
+#error-msg {
+    color: #d9534f; 
+    margin-top: 15px;
+    font-size: 14px;
+}
+

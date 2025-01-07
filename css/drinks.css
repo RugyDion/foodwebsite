@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.banner{
+    background-image: url(../images/dion-food-banner8.jpg);
+    background-size: cover;
+    height: 35vh;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+@media (max-width: 500px){
+      
+    .banner {
+        background-image: url(../images/dion-food-banner-mobile8.jpg); /* Change the image for mobile */
+        background-size: cover; /* Keep the image full size */
+        height: 25vh; /* Adjust height for mobile */
+        background-position: center;
+        border-radius: 0px; /* Optional: adjust styling for mobile */
+        margin-top: 5px; /* Optional: adjust margins for mobile */
+    }
+}

@@ -1,0 +1,42 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #f4f4f4;
+}
+#empty-sales-message {
+    text-align: center;
+    margin: 20px 0;
+    display: none;
+}
+#clear-sales {
+    margin: 10px 0;
+    padding: 8px 12px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#clear-sales:hover {
+    background-color: #d32f2f;
+}
+.date-header {
+    background-color: #f0f8ff;
+    font-weight: bold;
+    padding: 5px;
+}
+.daily-total {
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
