@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Register</title>
+    <link rel="stylesheet" href="css/reg.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon" />
+
+
+</head>
+<body>
+    <div class="container">
+        <img src="images/dionlogo.png" alt="Dion Foods Logo" class="logo">
+        
+        <div id="form_can">
+            <div class="form-container">
+                <h1>Admin Registration</h1>
+              <div class="success-message" id="successMessage"></div>
+      
+              <form id="registrationForm">
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter Name"
+                  required
+                /><br />
+                <input
+                  type="text"
+                  id="username"
+                  placeholder="Enter Username"
+                  required
+                /><br />
+                <input
+                  type="password"
+                  id="password"
+                  placeholder="Enter Password"
+                  required
+                /><br />
+                <button type="submit">Register</button>
+              </form>
+      
+              <div class="login-link" id="loginLink" style="display: none">
+                <a href="login.html">Login here</a>
+              </div>
+      
+              <button class="reset-button" onclick="resetAllUsers()">
+                Reset All Users
+              </button>
+            </div>
+          </div>
+      
+          <div class="admin-container">
+            <h1>Manage Food</h1>
+      
+            <form id="roomForm">
+              <select id="foodSelector"></select>
+      
+              <input type="hidden" id="foodId" />
+              <input type="text" id="foodType" placeholder="food Type" required />
+              <input type="number" id="foodPrice" placeholder="food Price" required />
+              <input type="file" id="mainPhotoUpload" accept="image/*" required />
+             
+              <button id="saveButton">Save Room Details</button>
+            </form>
+          </div>
+      
+    <script src="/js/register.js"></script>
+</body>
+</html>

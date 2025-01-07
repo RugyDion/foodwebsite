@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory</title>
+    <link rel="stylesheet" href="css/inventory_styles.css">
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <h1>Inventory Management</h1>
+
+        <!-- Sales Section -->
+        <section id="salesSection">
+            <h2>End of Day Sales Report</h2>
+            <form id="salesForm">
+                <div class="form-group">
+                    <label for="bookingsSales">Payment on Delivery Total Amount</label>
+                    <input type="number" id="bookingsSales" required>
+                </div>
+                <div class="form-group">
+                    <label for="foodSales">Credit Card Payment Total Amount</label>
+                    <input type="number" id="foodSales" required>
+                </div>
+            
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            
+            <div id="salesResults">
+                <h3>Saved Sales Entries</h3>
+                <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Payment on Delivery</th>
+                            <th>Credit Card Payment</th>
+                          
+                            <th>Total Sales</th>
+                        </tr>
+                    </thead>
+                    <tbody id="salesEntriesTable">
+                        <!-- Sales Entries will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
+            </div>
+            <button id="clearSales" class="clear-btn">Clear All Sales</button>
+        </section>
+
+        <!-- Storage Section -->
+        <section id="storageSection">
+            <h2>Daily Storage</h2>
+            <form id="storageForm">
+                <div class="form-group">
+                    <label for="productNameStorage">Product Name</label>
+                    <input type="text" id="productNameStorage" required>
+                </div>
+                <div class="form-group">
+                    <label for="quantityStorage">Quantity</label>
+                    <input type="number" id="quantityStorage" required>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            
+            <div id="storageResults">
+                <h3>Saved Storage Entries</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Product Name</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody id="storageEntriesTable">
+                        <!-- Storage Entries will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
+            <button id="clearStorage" class="clear-btn">Clear All Storage</button>
+        </section>
+
+        <!-- Usage Section -->
+        <section id="usageSection">
+            <h2>Usage from Storage</h2>
+            <form id="usageForm">
+                <div class="form-group">
+                    <label for="productNameUsage">Product Name</label>
+                    <input type="text" id="productNameUsage" required>
+                </div>
+                <div class="form-group">
+                    <label for="quantityUsage">Quantity to be Taken Out</label>
+                    <input type="number" id="quantityUsage" required>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+            
+            <div id="usageResults">
+                <h3>Saved Usage Entries</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Product Name</th>
+                            <th>Quantity</th>
+                        </tr>
+                    </thead>
+                    <tbody id="usageEntriesTable">
+                        <!-- Usage Entries will be dynamically added here -->
+                    </tbody>
+                </table>
+            </div>
+            <button id="clearUsage" class="clear-btn">Clear All Usage</button>
+        </section>
+    </div>
+
+    <script src="js/inventory.js"></script>
+</body>
+</html>

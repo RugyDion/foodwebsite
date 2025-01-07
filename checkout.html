@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/checkout.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <header class="header">
+        <h1>Checkout</h1>
+    </header>
+
+    <main>
+        <section class="checkout-summary">
+            <h2>Order Summary</h2>
+            <div id="order-summary">
+                <!-- Order details will be populated here by JavaScript -->
+            </div>
+        </section>
+
+        <section class="delivery-info">
+            <div id="holder">
+            <h2>Delivery Information</h2>
+            <form id="checkout-form">
+                <label for="address">Full Name:</label>
+                <input class="info" type="text" id="name" name="name" placeholder="Enter full name" required>
+                <br>
+                <label for="address">Phone Number:</label>
+                <input class="info" type="number" id="number" name="number" placeholder="Enter phone number" required>
+                <br>
+                <label for="address">Delivery Address:</label>
+                <input class="info" type="text" id="address" name="address" placeholder="Enter delivery address" required>
+            </div>
+
+                <fieldset>
+                    <legend>Payment Method:</legend>
+                    <label>
+                        <input type="radio" name="delivery" value="delivery" checked>
+                        Payment on Delivery
+                    </label>
+                    <label>
+                        <input type="radio" name="delivery" value="pickup">
+                        Card Payment
+                    </label>
+                </fieldset>
+
+               
+
+                <button type="submit">Proceed to Payment</button>
+            </form>
+        </section>
+    </main>
+
+
+
+      <!-- Popup Notification -->
+      <div id="popup-modal" class="modal">
+        <div class="modal-content">
+            <p>Your order has been placed and will get to you in the next 15 minutes!</p>
+            <button class="close-modal">OK</button>
+        </div>
+    </div>
+
+    <script src="js/cashout.js"></script>
+</body>
+</html>

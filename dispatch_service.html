@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispatch Service</title>
+    <link rel="stylesheet" href="css/dispatch.css">
+    
+</head>
+<body>
+    <h1>Dispatch Service</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Address</th>
+                <th>Items</th>
+                <th>Total</th>
+                <th>Date</th>
+                <th>Payment Method</th>
+                <th>Payment Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="dispatch-table">
+            <!-- Orders will be dynamically inserted here -->
+        </tbody>
+    </table>
+    <p id="empty-dispatch-message" style="display: none;">No orders ready for dispatch.</p>
+    <script src="js/dispatch.js"></script>
+</body>
+</html>

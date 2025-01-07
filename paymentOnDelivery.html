@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/paymentOnDelivery.css">
+    <title>Payment on Delivery</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Payment on Delivery</h1>
+    </header>
+
+    <main>
+        <section class="orders-container">
+            <h2>Orders Summary</h2>
+            <table id="orders-table">
+                <thead>
+                    <tr>
+                        <th>Full Name</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th>Order Details</th>
+                        <th>Total Amount</th>
+                        <th>Date/Time</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Orders will be dynamically populated here -->
+                </tbody>
+            </table>
+            <p id="empty-message" class="empty-message">No orders available.</p>
+            <button class="btn-clear" id="clear-orders">Clear All Orders</button>
+        </section>
+    </main>
+
+    <script src="js/paymentOnDelivery.js"></script>
+</body>
+</html>

@@ -1,0 +1,457 @@
+[
+    {
+        "name": "Plantain/veg",
+        "price": "3000",
+        "image": "images/2024_08_30_21_59_IMG_1286.JPG"
+    },
+    {
+        "name": "Pizza",
+        "price": "6500",
+        "image": "images/2024_08_30_21_54_IMG_1282.JPG"
+    },
+    {
+        "name": "Yam/veg",
+        "price": "3000",
+        "image": "images/2024_08_30_21_59_IMG_1287.JPG"
+    },
+
+
+
+
+    {
+        "name": "Dodo",
+        "price": "1500",
+        "image": "images/2024_08_30_21_51_IMG_1274.JPG"
+    },
+
+    {
+        "name": "Hamburger",
+        "price": "5000",
+        "image": "images/2024_08_30_21_54_IMG_1281.JPG"
+    },
+
+    {
+        "name": "Vegetable Stew",
+        "price": "2000",
+        "image": "images/2024_08_30_21_58_IMG_1285.JPG"
+    },
+
+    {
+        "name": "Spaghatti",
+        "price": "2000",
+        "image": "images/2024_08_30_21_52_IMG_1276.JPG"
+    },
+
+    {
+        "name": "White Rice & Beef Stew",
+        "price": "4500",
+        "image": "images/2024_08_30_21_50_IMG_1265.JPG"
+    },
+
+    {
+        "name": "Banga Soup/Starch",
+        "price": "3800",
+        "image": "images/2024_08_30_22_01_IMG_1294.JPG"
+    },
+
+    {
+        "name": "Cubab",
+        "price": "6000",
+        "image": "images/2024_08_30_21_51_IMG_1271.JPG"
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "name": "Jollof Rice/Chicken",
+        "price": "4200",
+        "image": "images/2024_08_30_21_50_IMG_1267.JPG"
+    },
+    {
+        "name": "Leaf Rice/Chicken",
+        "price": "4000",
+        "image": "images/2024_08_30_21_52_IMG_1278.JPG"
+    },
+    {
+        "name": "Oil Rice",
+        "price": "3000",
+        "image": "images/2024_08_30_21_51_IMG_1273.JPG"
+    },
+
+
+
+
+    {
+        "name": "Beans & Dodo",
+        "price": "2500",
+        "image": "images/2024_08_30_21_52_IMG_1275.JPG"
+    },
+
+    {
+        "name": "paghatti & Chicken",
+        "price": "2800",
+        "image": "images/2024_08_30_21_52_IMG_1276.JPG"
+    },
+
+    {
+        "name": "White Rice & Beef Stew",
+        "price": "4500",
+        "image": "images/2024_08_30_21_50_IMG_1265.JPG"
+    },
+
+    {
+        "name": "Fried Rice & Turkey",
+        "price": "4200",
+        "image": "images/2024_09_03_00_09_IMG_1318.JPG"
+    },
+
+    {
+        "name": "Noodles & Chicken",
+        "price": "2000",
+        "image": "images/2024_09_03_00_10_IMG_1321.JPG"
+    },
+
+    
+    {
+        "name": "Pounded Yam, Afhag Soup & Beef",
+        "price": "4800",
+        "image": "images/2024_09_03_00_06_IMG_1311.JPG"
+    },
+    {
+        "name": "Semo, Egusi Soup & Beef",
+        "price": "4500",
+        "image": "images/2024_09_04_04_49_IMG_1337.JPG"
+    },
+    {
+        "name": "Eba, Egusi Soup & Beef",
+        "price": "4000",
+        "image": "images/2024_09_04_04_50_IMG_1338.JPG"
+    },
+
+
+
+
+    {
+        "name": "Poundu, Edikaikong Soup & Beef",
+        "price": "4800",
+        "image": "images/2024_09_04_04_51_IMG_1339.JPG"
+    },
+
+    {
+        "name": "Amala, Ewedu Soup & Protains",
+        "price": "4800",
+        "image": "images/2024_09_04_04_53_IMG_1341.JPG"
+    },
+
+    {
+        "name": "Ogbolor Soup & Protains",
+        "price": "3500",
+        "image": "images/2024_09_03_00_08_IMG_1314.JPG"
+    },
+
+    {
+        "name": "Vegitable Soup & Protains",
+        "price": "3500",
+        "image": "images/2024_09_04_04_54_IMG_1342.JPG"
+    },
+
+    {
+        "name": "Okro Soup & Protains",
+        "price": "3500",
+        "image": "images/2024_09_04_04_56_IMG_1345.JPG"
+    },
+
+    {
+        "name": "1 Pounded Yam",
+        "price": "500",
+        "image": "images/2024_09_04_04_58_IMG_1346.JPG"
+    },
+
+    {
+        "name": "1 Fufu",
+        "price": "500",
+        "image": "images/2024_09_04_04_55_IMG_1344.JPG"
+    },
+
+
+    
+    {
+        "name": "Tea & Bread",
+        "price": "1000",
+        "image": "images/2024_09_03_00_15_IMG_1333.JPG"
+    },
+    {
+        "name": "Boiled Yam & Pepper sauce",
+        "price": "1500",
+        "image": "images/2024_09_03_00_05_IMG_1308.JPG"
+    },
+    {
+        "name": "Akara & Custard",
+        "price": "1500",
+        "image": "images/2024_09_03_00_04_IMG_1306.JPG"
+    },
+
+
+
+
+    {
+        "name": "Boiled Yam & Fried Eggs",
+        "price": "1500",
+        "image": "images/2024_09_03_00_07_IMG_1312.JPG"
+    },
+
+    {
+        "name": "Moi Moi & Custard",
+        "price": "1500",
+        "image": "images/2024_09_03_00_07_IMG_1313.JPG"
+    },
+
+    {
+        "name": "Akara, Bread & Tea",
+        "price": "1800",
+        "image": "images/2024_09_03_00_08_IMG_1316.JPG"
+    },
+
+    {
+        "name": "Oat Special",
+        "price": "1500",
+        "image": "images/2024_09_03_00_11_IMG_1325.JPG"
+    },
+
+    {
+        "name": "Noodles Special",
+        "price": "1500",
+        "image": "images/2024_09_03_00_12_IMG_1327.JPG"
+    },
+
+    {
+        "name": "Pancake Special",
+        "price": "2500",
+        "image": "images/2024_09_03_00_07_IMG_1313.JPG"
+    },
+
+    {
+        "name": "Boilded Plantains & Fried Eggs",
+        "price": "1500",
+        "image": "images/2024_09_03_00_11_IMG_1322.JPG"
+    },
+
+
+    {
+        "name": "Chocolate Doughnut",
+        "price": "1000",
+        "image": "images/2024_09_04_07_03_IMG_1349.JPG"
+    },
+    {
+        "name": "Meat Pie",
+        "price": "1500",
+        "image": "images/2024_09_04_07_05_IMG_1351.JPG"
+    },
+    {
+        "name": "Egg Roll",
+        "price": "800",
+        "image": "images/2024_09_04_07_06_IMG_1354.JPG"
+    },
+
+
+
+
+    {
+        "name": "Mikky Doughnut",
+        "price": "1500",
+        "image": "images/2024_09_04_07_02_IMG_1347.JPG"
+    },
+
+    {
+        "name": "Samosa & Puff Puff",
+        "price": "1200",
+        "image": "images/2024_09_04_07_05_IMG_1352.JPG"
+    },
+
+    {
+        "name": "Shawarma",
+        "price": "2500",
+        "image": "images/2024_09_03_00_08_IMG_1316.JPG"
+    },
+
+    {
+        "name": "Peanuts",
+        "price": "1800",
+        "image": "images/2024_09_04_07_08_IMG_1356.JPG"
+    },
+
+    {
+        "name": "Plantain & Potatoe Chips",
+        "price": "1800",
+        "image": "images/2024_09_04_07_08_IMG_1357.JPG"
+    },
+
+    {
+        "name": "Vanilla Chinchin",
+        "price": "200",
+        "image": "images/2024_09_04_07_08_IMG_1358.JPG"
+    },
+
+    {
+        "name": "Soft Vanilla Cake Slice",
+        "price": "800",
+        "image": "images/2024_09_04_07_11_IMG_1359.JPG"
+    }, {
+        "name": "Grilled Turkey",
+        "price": "2000",
+        "image": "images/2024_09_04_22_30_IMG_1366.JPG"
+    },
+    {
+        "name": "Fried Cow Meat",
+        "price": "500",
+        "image": "images/2024_09_04_22_32_IMG_1371.JPG"
+    },
+    {
+        "name": "Air Fried Chicken",
+        "price": "1300",
+        "image": "images/2024_08_30_21_59_IMG_1287.JPG"
+    },
+
+
+
+
+    {
+        "name": "Pepper Snail",
+        "price": "1000",
+        "image": "images/2024_09_04_22_28_IMG_1364.JPG"
+    },
+
+    {
+        "name": "Nkowbi",
+        "price": "2000",
+        "image": "images/2024_09_04_22_31_IMG_1368.JPG"
+    },
+
+    {
+        "name": "Deep Fried Chicken",
+        "price": "1300",
+        "image": "images/2024_09_04_22_29_IMG_1365.JPG"
+    },
+
+    {
+        "name": "Fried Fish",
+        "price": "1000",
+        "image": "images/2024_09_04_22_26_IMG_1362.JPG"
+    },
+
+    {
+        "name": "Fried Goat Meat",
+        "price": "700",
+        "image": "images/2024_09_04_22_33_IMG_1372.JPG"
+    },
+
+    {
+        "name": "Catfish Pepper Soup",
+        "price": "1800",
+        "image": "images/2024_09_04_22_37_IMG_1377.JPG"
+    },
+
+    {
+        "name": "Asun",
+        "price": "1800",
+        "image": "images/2024_09_04_22_32_IMG_1369.JPG"
+    },
+
+    {
+        "name": "Fried Turkey",
+        "price": "1500",
+        "image": "images/2024_09_04_22_35_IMG_1373.JPG"
+    },
+
+    {
+        "name": "Goat Meat Pepper Soup",
+        "price": "1500",
+        "image": "images/2024_09_04_22_36_IMG_1376.JPG" 
+    },
+
+    {
+        "name": "Coke(coca cola)",
+        "price": "500",
+        "image": "images/2024_09_04_22_43_IMG_1385.JPG"
+    },
+    {
+        "name": "Pepsi",
+        "price": "500",
+        "image": "images/2024_09_04_22_43_IMG_1388.JPG"
+    },
+    {
+        "name": "Chivita",
+        "price": "1500",
+        "image": "images/2024_09_04_22_41_IMG_1379.JPG"
+    },
+
+
+
+
+    {
+        "name": "Tropicana",
+        "price": "1800",
+        "image": "images/2024_09_04_22_28_IMG_1364.JPG"
+    },
+
+    {
+        "name": "5 Alive Pulpy",
+        "price": "1200",
+        "image": "images/2024_09_04_22_41_IMG_1380.JPG"
+    },
+
+    {
+        "name": "Mirinda",
+        "price": "500",
+        "image": "images/2024_09_04_22_43_IMG_1387.JPG"
+    },
+
+    {
+        "name": "Malta Guinness",
+        "price": "800",
+        "image": "images/2024_09_04_22_43_IMG_1389.JPG"
+    },
+
+    {
+        "name": "Zobo",
+        "price": "500",
+        "image": "images/2024_09_04_22_41_IMG_1381.JPG"
+    },
+
+    {
+        "name": "Laetitia Red Wine",
+        "price": "5000",
+        "image": "images/2024_09_04_22_44_IMG_1390.JPG"
+    },
+
+    {
+        "name": "Cumurria Orange",
+        "price": "7000",
+        "image": "images/2024_09_04_22_45_IMG_1392.JPG"
+    },
+
+{
+        "name": "Oberon",
+        "price": "11000",
+        "image": "images/2024_09_04_22_47_IMG_1394.JPG"
+    },
+
+{
+        "name": "Mango Mimosa",
+        "price": "11500",
+        "image": "images/2024_09_04_22_48_IMG_1396.JPG"
+    }
+
+
+
+   
+
+
+]

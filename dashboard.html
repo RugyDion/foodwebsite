@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <title>Dashboard</title>
+</head>
+<body>
+
+
+    <header>
+        <div id="head_con">
+        <div>
+            <i id="menu-icon" class='bx bx-menu'></i>
+        </div>
+
+        <div class="logo">
+            <h1>Dashboard</h1>
+        </div></div>
+        <div id="welcom">
+        <h1>Welcome <span id="welcomeName"></span></h1>
+        <div class="logout">
+            <button onclick="logout()">Logout</button>
+        </div>
+    </div>
+    </header>
+
+
+    <section id="menu">
+        <div class="logo">
+            <img src="images/dionlogo.png" alt="">
+        </div>
+
+        <div class="items">
+           
+            <li><i class='bx bxs-pie-chart-alt'></i><a href="#">Dashboard</a></li>
+            <li><i class='bx bx-analyse'></i><a href="inventory.html" onclick="openModal('')">Inventory</a></li>
+            <li><i class='bx bx-detail'></i><a href="stakeholder-share.html" onclick="openModal('')">Stakeholder Share</a></li>
+            <li><i class='bx bx-dish'></i><a href="paymentOnDeliveryReport.html" onclick="openModal('')">PoD Report</a></li>
+            <li><i class='bx bx-drink'></i><a href="#" onclick="openModal('')">Card Report</a></li>
+          
+
+
+
+        </div>
+    </section>
+
+
+     <!-- Modal for login -->
+     <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Login to Access</h2>
+            <label for="modalUsername">Username:</label>
+            <input type="text" id="modalUsername" placeholder="Enter username"><br><br>
+            <label for="modalPassword">Password:</label>
+            <input type="password" id="modalPassword" placeholder="Enter password"><br><br>
+            <button onclick="validateLogin()">Login</button>
+        </div>
+    </div>
+    
+
+   
+
+    <main>
+        <div class="grid-container">
+            <div class="card delivery" id="delivery">
+                <div class="card-overlay">
+                    <p class="stats" id="delivery-count">0</p>
+               <h2>Payment on Delivery</h2>
+               <div class="icons">
+                <a href="paymentOnDelivery.html">  <button class="icon" ><div> <div class="click"> Info </div> <div class="click-icon">ℹ️</div></div></button></a>
+               
+                    </div>
+                </button>
+            </div>
+            </div>
+            
+            <div class="card cc_payment" id="cc_payment">
+                <div class="card-overlay">
+                    <p class="stats" id="cc_payment-count">0</p>
+                <h2>Credit Card Payment</h2>
+                <div class="icons">
+                    <a href="bookings.html">  <button class="icon" ><div> <div class="click"> Info </div> <div class="click-icon">ℹ️</div></div></button></a>
+                   
+                        </div>
+                    </button>
+               
+            </div>
+            </div>
+
+
+            <div class="card dispatch" id="dispatch">
+                <div class="card-overlay">
+                    <p class="stats" id="dispatch-count">0</p>
+                <h2>Dispatch Services</h2>
+                <div class="icons">
+                    <a href="dispatch_service.html">  <button class="icon" ><div> <div class="click"> Info </div> <div class="click-icon">ℹ️</div></div></button></a>
+                   
+                        </div>
+                    </button>
+               
+            </div>
+            </div>
+
+
+            <div class="card total" id="total">
+                <div class="card-overlay">
+                <p class="stats" id="total-count">₦0</p>
+                <h2>Total Sales</h2>
+                <div class="icons">
+                    <a href="totalSales.html">  <button class="icon" ><div> <div class="click"> Info </div> <div class="click-icon">ℹ️</div></div></button></a>
+                   
+                        </div>
+                    </button>
+            
+
+             
+            </div>
+            </div>
+            
+        
+
+
+            
+            
+
+            <!-- Additional sections would go here -->
+        </div>
+
+
+        <div class="chart-container">
+            <canvas id="salesChart"></canvas>
+        </div>
+
+
+
+    </main>
+
+    
+    
+
+
+    <script src="/js/dashboard.js" defer></script>
+
+
+</body>
+</html>
